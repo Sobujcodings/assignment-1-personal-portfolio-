@@ -1,12 +1,14 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family:Work Sans
+    font-family: Work Sans;
+    width: 1366;
+    height: 768;
 }
 
 .header {
     background-image: url(images/banner/banner1.png);
-    background-position:left;
+    background-position: left;
     background-repeat: no-repeat;
     width: 1466px;
     height: 768px;
@@ -17,12 +19,12 @@
 .header-all-text {
     margin: 0 auto;
     /* background-color: aqua; */
-    margin-left: 850px;
+    margin-left: 800px;
     margin-top: 170px;
     color: #000000;
     font-family: 'Work Sans';
-    
-    
+
+
 
 
 }
@@ -53,9 +55,9 @@
 .btn-primary {
     width: 120px;
     height: 50px;
-    margin-left:300px ;
+    margin-left: 300px;
     background-color: #e26714;
-    color:#ffffff ;
+    color: #ffffff;
     border: 0;
     border-radius: 5px;
     font-family: 'Work Sans' Arial, Helvetica, sans-serif;
@@ -71,25 +73,77 @@
 .person {
     background-color: #ffffff;
 
+
 }
 
 
 article {
-    margin: 100px 140px;
+    margin: 100px 100px;
     display: flex;
-    
+
 }
 
 .article {
     background-color: aqua;
-    margin-top: 200px;
-    margin-left: 80px;
+    margin-top: 250px;
+    margin-left: 100px;
 }
 
-.article-title{
+.article-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
 
 }
 
-.article-description {
+.article-description {}
+
+
+
+
+
+
+.footer {
+    background-color: #000000;
+    display: flex;
+    margin-top: 50px;
+    padding: 40px 200px;
+
+
+}
+
+.footer-title {
+    padding: 50px;
+    color: #ffffff;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+
+
+}
+
+.footer-description {
+    color: #dadada;
+    font-size: 15px;
+    font-style: normal;
+
+
+
+}
+
+.input-title {
+    padding-top: 45px;
+    color: #ffffff;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.btn-secondary {
+    color: #505050;
+
 
 }
