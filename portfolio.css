@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:Work Sans
+}
+
+.header {
+    background-image: url(images/banner/banner1.png);
+    background-position:left;
+    background-repeat: no-repeat;
+    width: 1466px;
+    height: 768px;
+    display: flex;
+
+}
+
+.header-all-text {
+    margin: 0 auto;
+    /* background-color: aqua; */
+    margin-left: 850px;
+    margin-top: 170px;
+    color: #000000;
+    font-family: 'Work Sans';
+    
+    
+
+
+}
+
+.header-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 65px;
+
+
+}
+
+.header-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    margin-bottom: 22px;
+    font-size: 15px;
+}
+
+.btn-primary {
+    width: 120px;
+    height: 50px;
+    margin-left:300px ;
+    background-color: #e26714;
+    color:#ffffff ;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Work Sans' Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.person {
+    background-color: #ffffff;
+
+}
+
+
+article {
+    margin: 100px 140px;
+    display: flex;
+    
+}
+
+.article {
+    background-color: aqua;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.article-title{
+
+}
+
+.article-description {
+
+}
