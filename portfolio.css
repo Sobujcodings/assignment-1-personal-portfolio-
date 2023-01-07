@@ -1,10 +1,10 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: Work Sans;
-    /* max-width: 1366;
-    max-width: 768; */
-    font-family: Arial,'Trebuchet MS', sans-serif;
+
+
+    max-width: 768;
+    font-family: Arial, 'Trebuchet MS', sans-serif;
 
 
 
@@ -137,14 +137,70 @@ article {
 
 /*  main/skills  section starts from here */
 
+.skills-title {
+    width: 1366px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
 
 .skills {
     display: flex;
-    background-color: #e26714;
-    
+    background-color: #ffffff;
     height: 250px;
-    width:1000px;
-    margin: 100px 180px;
+    width: 1066px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    background-color: #f39c1a;
+
+
+}
+
+
+.skill {
+    padding-right: 50px;
+    padding-left: 60px;
+    padding-top: 30px;
+    color: #dadada;
+    margin: 0 auto;
+
+
+
+
+
+
+
+}
+
+
+.skill-sub-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-weight: bold;
+    font-family: Arial, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.motive {
+    text-align: center;
+    color: #6b6b6b;
+
+}
+
+.skill img {
+    padding-left: 10px;
+    margin: 0 auto;
+
+}
+
+#web {
+    margin-left: 22px;
 }
 
 
@@ -153,7 +209,52 @@ article {
 
 
 
+.gradiant-whole {
+    display: flex;
+    position: relative;
 
+
+}
+
+
+
+
+
+.gradiant-image {
+    width: 1000px;
+    margin-left: 183px;
+    margin-right: 183px;
+    background-image: url(./images/watch.png);
+    margin-bottom: 80px;
+    border-radius: 10px;
+
+}
+
+
+.gradiant-text {
+    /* background-color: rgb(255, 255, 255); */
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 60px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+
+
+}
+
+.btn {
+    margin-top: 15px;
+    background-color: #ffffff;
+    width: 40px;
+    border: 0px;
+    border-radius: 5px;
+    width: 135px;
+    height: 50px;
+    left: 294px;
+    font-size: 18px;
+}
 
 
 
@@ -178,8 +279,9 @@ article {
     display: flex;
     justify-content: space-between;
     background-color: #151414;
-
-
+    height: 400px;
+    ;
+    width: 1366px;
 
 }
 
@@ -189,18 +291,18 @@ article {
     padding-bottom: 60px;
     padding-left: 260px;
     color: #ffffff;
-    font-family: Arial,'Trebuchet MS', sans-serif;
+    font-family: Arial, 'Trebuchet MS', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
-    
+
 
 
 }
 
 .footer-description {
     color: #dadada;
-    font-family: Arial,'Trebuchet MS', sans-serif;
+    font-family: Arial, 'Trebuchet MS', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -221,7 +323,7 @@ article {
     padding-top: 80px;
     padding-bottom: 60px;
     padding-left: 150px;
-    
+
 
 }
 
@@ -231,7 +333,7 @@ article {
 
     color: #ffffff;
 
-    font-family: Arial,'Trebuchet MS', sans-serif;
+    font-family: Arial, 'Trebuchet MS', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -247,10 +349,10 @@ article {
     padding-left: 10px;
     margin-top: 15px;
     border-radius: 8px;
-    background-color: #151414;  
+    background-color: #151414;
     border: 1px solid white;
     font-size: 15px;
-    
+
 
 }
 
@@ -261,7 +363,7 @@ article {
     margin-top: 10px;
     border-radius: 8px;
     font-size: 15px;
-    font-family: Arial,'Trebuchet MS', sans-serif;
+    font-family: Arial, 'Trebuchet MS', sans-serif;
 
 
 
