@@ -1,14 +1,15 @@
 * {
     padding: 0px;
     margin: 0px;
-
-
-    max-width: 768;
+    max-width: 1366px;
     font-family: Arial, 'Trebuchet MS', sans-serif;
-
-
-
 }
+
+
+
+
+/* header section starts from here */
+
 
 .header {
     background-image: url(images/banner/banner1.png);
@@ -22,7 +23,6 @@
 
 .header-all-text {
     margin: 0 auto;
-    /* background-color: aqua; */
     margin-left: 800px;
     margin-top: 170px;
     color: #000000;
@@ -72,9 +72,6 @@
 
 
 
-
-
-
 /* article section starts from here */
 
 
@@ -100,7 +97,7 @@ article {
 }
 
 .article-title {
-    font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -131,11 +128,9 @@ article {
 
 
 
-
-
-
-
 /*  main/skills  section starts from here */
+
+
 
 .skills-title {
     width: 1366px;
@@ -156,7 +151,7 @@ article {
     margin-right: 150px;
     margin-bottom: 10px;
     background-color: #ffffff;
-    
+
 
 }
 
@@ -208,12 +203,15 @@ article {
 
 
 
+/* gradient-image */
+
+
 
 
 .gradiant-whole {
     display: flex;
     position: relative;
-    
+
 
 }
 
@@ -228,12 +226,11 @@ article {
     background-image: url(./images/watch.png);
     margin-bottom: 150px;
     border-radius: 10px;
-    
+
 }
 
 
 .gradiant-text {
-    /* background-color: rgb(255, 255, 255); */
     position: absolute;
     margin-left: 250px;
     margin-top: 60px;
@@ -261,10 +258,32 @@ article {
 
 
 
+/* about section starts from here */
 
 
+.about {
+    max-width: 1366px;
+    width: 600px;
+    height: 200px;
+    margin-left: 280px;
+    margin-bottom: 120px;
+    background-color: rgba(226, 102, 20, 0.199);
+    text-align: center;
+    padding: 100px;
+
+}
 
 
+.sec-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.sec-description {
+    font-size: 20px;
+    color: #444343;
+}
 
 
 
@@ -276,12 +295,10 @@ article {
 
 
 .footer {
-    /* background-color: #111111; */
     display: flex;
     justify-content: space-between;
     background-color: #151414;
     height: 400px;
-    ;
     width: 1366px;
 
 }
@@ -310,11 +327,6 @@ article {
     padding: 20px 0px;
 
 }
-
-
-
-
-
 
 
 
@@ -353,6 +365,7 @@ article {
     background-color: #151414;
     border: 1px solid white;
     font-size: 15px;
+    color: rgb(255, 255, 255);
 
 
 }
@@ -365,7 +378,4 @@ article {
     border-radius: 8px;
     font-size: 15px;
     font-family: Arial, 'Trebuchet MS', sans-serif;
-
-
-
 }
