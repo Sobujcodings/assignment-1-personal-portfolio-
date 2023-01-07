@@ -100,7 +100,7 @@ article {
 }
 
 .article-title {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans',Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -141,6 +141,7 @@ article {
     width: 1366px;
     text-align: center;
     font-size: 40px;
+    margin-top: 130px;
 }
 
 
@@ -153,9 +154,9 @@ article {
     width: 1066px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: 100px;
-    background-color: #f39c1a;
-
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    
 
 }
 
@@ -212,7 +213,7 @@ article {
 .gradiant-whole {
     display: flex;
     position: relative;
-
+    
 
 }
 
@@ -225,9 +226,9 @@ article {
     margin-left: 183px;
     margin-right: 183px;
     background-image: url(./images/watch.png);
-    margin-bottom: 80px;
+    margin-bottom: 150px;
     border-radius: 10px;
-
+    
 }
 
 
